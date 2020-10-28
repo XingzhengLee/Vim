@@ -45,6 +45,8 @@ n
 N
 # no highlight
 nohl
+# find
+f
 
 ############################## replace ##############################
 %s/old/new/g
@@ -53,6 +55,8 @@ lineM,LineNs/old/new
 # split the screen
 split/vsplit
 
+# syntax color
+syntax on
 # line number
 set number
 # cursorline
@@ -68,10 +72,10 @@ set ignorecase
 # smart case
 set smartcase
 # to line
-number
+number+gg
 
 <operation> times*<motion>
-# begin
+# back
 b
 # end
 e
@@ -81,8 +85,6 @@ w
 i
 # around
 a
-# find
-f
 
 # beginning of the file
 gg
@@ -125,3 +127,7 @@ vim -o -O
 # select file
 Ctrl+w+w/hjkl
 
+# PgUp
+Ctrl+b
+# PgDn
+Ctrl+f
