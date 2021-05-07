@@ -131,3 +131,8 @@ Ctrl+w+w/hjkl
 Ctrl+b
 # PgDn
 Ctrl+f
+
+# example
+:1,3 m 6	# move
+:1,3 co 6	# copy
+:1,3 d		# delete
